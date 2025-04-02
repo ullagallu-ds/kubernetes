@@ -26,4 +26,4 @@ eksctl create nodegroup --cluster=$CLUSTER_NAME \
                        --managed \
                        --asg-access \
                        --external-dns-access
-# --spot                                                                          
+# --spot
