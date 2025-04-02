@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-CLUSTER_NAME="ullagallu-konkas-tech"
+CLUSTER_NAME="konkas-tech"
 REGION="ap-south-1"
 NODEGROUP_NAME="ng1"
 NODE_TYPE="t3a.medium"
@@ -27,8 +27,4 @@ eksctl create nodegroup --cluster=$CLUSTER_NAME \
                        --managed \
                        --asg-access \
                        --external-dns-access
-if [ $? -ne 0 ]; then
-    echo "Error: Failed to create nodegroup."
-    exit 1
-fi
 # --spot

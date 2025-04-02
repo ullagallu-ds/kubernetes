@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-CLUSTER_NAME="ullagallu-konkas-tech"
+CLUSTER_NAME="konkas-tech"
 REGION="ap-south-1"
 ZONES="ap-south-1a,ap-south-1b"
 PROFILE="eks"
