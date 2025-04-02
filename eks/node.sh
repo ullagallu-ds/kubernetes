@@ -4,9 +4,9 @@ CLUSTER_NAME="konkas-tech"
 REGION="ap-south-1"
 NODEGROUP_NAME="ng1"
 NODE_TYPE="t3a.medium"
-NODES=4
+NODES=2
 NODES_MIN=1
-NODES_MAX=4
+NODES_MAX=2
 NODE_VOLUME_SIZE=20
 SSH_PUBLIC_KEY="siva"
 PROFILE="eks"
@@ -26,4 +26,4 @@ eksctl create nodegroup --cluster=$CLUSTER_NAME \
                        --managed \
                        --asg-access \
                        --external-dns-access
-# --spot
+# --spot                                                                          
