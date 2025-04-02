@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Variables
 CLUSTER_NAME="konkas-tech"
 REGION="ap-south-1"
 NODEGROUP_NAME="ng1"

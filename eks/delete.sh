@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Variables
-CLUSTER_NAME="ullagallu-konkas-tech"
+
+CLUSTER_NAME="konkas-tech"
 PROFILE="eks"
 
 echo "Deleting EKS cluster..."
