@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-CLUSTER_NAME="konkas-tech"
+CLUSTER_NAME="karpenter"
 PROFILE="eks"
 
 echo "Deleting EKS cluster..."
