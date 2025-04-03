@@ -1,12 +1,12 @@
 #!/bin/bash
 
-CLUSTER_NAME="konkas-tech"
+CLUSTER_NAME="karpenter"
 REGION="ap-south-1"
 NODEGROUP_NAME="ng1"
 NODE_TYPE="t3a.medium"
-NODES=2
+NODES=1
 NODES_MIN=1
-NODES_MAX=2
+NODES_MAX=1
 NODE_VOLUME_SIZE=20
 SSH_PUBLIC_KEY="siva"
 PROFILE="eks"
